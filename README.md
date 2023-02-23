@@ -15,7 +15,9 @@ p = mv
 Onde:
 
 p é o momento linear da partícula em kg*m/s
+
 v é a velocidade da partícula em m/s
+
 Com esses valores, é possível calcular a energia total da partícula com a equação de Einstein:
 
 E = sqrt((mc²)² + p²)
@@ -23,6 +25,7 @@ E = sqrt((mc²)² + p²)
 O programa utiliza a biblioteca math.js além do readline para realizar o cálculo da raiz quadrada.
 
 Como utilizar o programa
+
 Para utilizar o programa, é necessário ter o Node.js instalado em seu computador.
 
 Clone ou faça o download deste repositório para seu computador.
@@ -33,11 +36,14 @@ Digite o seguinte comando para instalar as dependências:
 
 
 npm install mathjs
+
 npm install readline
+
 Para executar o programa, digite o seguinte comando:
 
 
 node Projeto_Calculo_de_energia.js
+
 O programa irá solicitar que você digite a massa da partícula em kg e a velocidade da partícula em m/s. Digite os valores solicitados e pressione Enter.
 
 O programa irá exibir o resultado do cálculo da energia total da partícula em joules (J).
